@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 908a29d1f07d149e3826fb4fefb78a4a, type: 3}
+  m_Name: Character A
+  m_EditorClassIdentifier: 
+  characterName: Character A
+  skills:
+  - <skillName>k__BackingField: Fire Ball
+    <icon>k__BackingField: {fileID: 21300000, guid: e2838793b76fb44b68d2c54b0cc7fa8e, type: 3}
+    <skillDescription>k__BackingField: Flaming ball from the mountains
+    <damage>k__BackingField: 50
+    <manaCost>k__BackingField: 60
+    <cooldown>k__BackingField: 10
+    <skillVFX>k__BackingField: {fileID: 11400000, guid: 83bf336696f624ad2b32c98c896d5494, type: 2}
+    <effects>k__BackingField: []
+  - <skillName>k__BackingField: Ice Freeze
+    <icon>k__BackingField: {fileID: 21300000, guid: 342f7a502b9e347c2ae5637001a83b8c, type: 3}
+    <skillDescription>k__BackingField: Ice cold stone from the earth
+    <damage>k__BackingField: 3
+    <manaCost>k__BackingField: 70
+    <cooldown>k__BackingField: 7
+    <skillVFX>k__BackingField: {fileID: 0}
+    <effects>k__BackingField:
+    - type: 1
+      duration: 5
+      withVFX: 0
+      vfx: {fileID: 0}
+  - <skillName>k__BackingField: Lightning Strike
+    <icon>k__BackingField: {fileID: 21300000, guid: 29f689e80953c47e2a6fce19843bf74e, type: 3}
+    <skillDescription>k__BackingField: Lightning from the sky
+    <damage>k__BackingField: 5
+    <manaCost>k__BackingField: 90
+    <cooldown>k__BackingField: 15
+    <skillVFX>k__BackingField: {fileID: 0}
+    <effects>k__BackingField:
+    - type: 0
+      duration: 3
+      withVFX: 0
+      vfx: {fileID: 0}

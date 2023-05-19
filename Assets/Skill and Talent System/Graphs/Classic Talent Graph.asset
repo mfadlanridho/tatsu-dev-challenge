@@ -1,0 +1,766 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4817681781464455475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 204ceea48abd04460aedb8d78a115ea2, type: 3}
+  m_Name: Talent D
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -600, y: -840}
+  ports:
+    keys:
+    - prerequisite
+    - unlocks
+    values:
+    - _fieldName: prerequisite
+      _node: {fileID: -4817681781464455475}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: unlocks
+        node: {fileID: 2193410212183635477}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: unlocks
+      _node: {fileID: -4817681781464455475}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: prerequisite
+        node: {fileID: -1786004686848723425}
+        reroutePoints: []
+      - fieldName: prerequisite
+        node: {fileID: 5299359979236965320}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  prerequisite: 0
+  talents:
+  - modification: {fileID: 11400000, guid: b691b7faba8d0474a92acd9e9502700a, type: 2}
+    targetSkillPopup: Ice Freeze
+    targetSkill:
+      <skillName>k__BackingField: Ice Freeze
+      <icon>k__BackingField: {fileID: 21300000, guid: 342f7a502b9e347c2ae5637001a83b8c, type: 3}
+      <skillDescription>k__BackingField: Slow Enemy
+      <damage>k__BackingField: 3
+      <manaCost>k__BackingField: 70
+      <cooldown>k__BackingField: 7
+      <skillVFX>k__BackingField: {fileID: 0}
+      <effects>k__BackingField:
+      - type: 1
+        duration: 5
+        withVFX: 0
+        vfx: {fileID: 0}
+  unlocks: 0
+--- !u!114 &-2483280083663466008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 204ceea48abd04460aedb8d78a115ea2, type: 3}
+  m_Name: Talent J
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 328, y: -360}
+  ports:
+    keys:
+    - prerequisite
+    - unlocks
+    values:
+    - _fieldName: prerequisite
+      _node: {fileID: -2483280083663466008}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: unlocks
+        node: {fileID: 5299359979236965320}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: unlocks
+      _node: {fileID: -2483280083663466008}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: prerequisite
+        node: {fileID: -849929830885612274}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  prerequisite: 0
+  talents:
+  - modification: {fileID: 11400000, guid: 89c23ca47ad3f49d1a2a7a5998939757, type: 2}
+    targetSkillPopup: Ice Freeze
+    targetSkill:
+      <skillName>k__BackingField: Ice Freeze
+      <icon>k__BackingField: {fileID: 21300000, guid: 342f7a502b9e347c2ae5637001a83b8c, type: 3}
+      <skillDescription>k__BackingField: Slow Enemy
+      <damage>k__BackingField: 3
+      <manaCost>k__BackingField: 70
+      <cooldown>k__BackingField: 7
+      <skillVFX>k__BackingField: {fileID: 0}
+      <effects>k__BackingField:
+      - type: 1
+        duration: 5
+        withVFX: 0
+        vfx: {fileID: 0}
+  unlocks: 0
+--- !u!114 &-1883741142808425759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 204ceea48abd04460aedb8d78a115ea2, type: 3}
+  m_Name: Talent K
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 328, y: 24}
+  ports:
+    keys:
+    - prerequisite
+    - unlocks
+    values:
+    - _fieldName: prerequisite
+      _node: {fileID: -1883741142808425759}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: unlocks
+        node: {fileID: 5299359979236965320}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: unlocks
+      _node: {fileID: -1883741142808425759}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: prerequisite
+        node: {fileID: -849929830885612274}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  prerequisite: 0
+  talents:
+  - modification: {fileID: 11400000, guid: 89c23ca47ad3f49d1a2a7a5998939757, type: 2}
+    targetSkillPopup: Ice Freeze
+    targetSkill:
+      <skillName>k__BackingField: Ice Freeze
+      <icon>k__BackingField: {fileID: 21300000, guid: 342f7a502b9e347c2ae5637001a83b8c, type: 3}
+      <skillDescription>k__BackingField: Slow Enemy
+      <damage>k__BackingField: 3
+      <manaCost>k__BackingField: 70
+      <cooldown>k__BackingField: 7
+      <skillVFX>k__BackingField: {fileID: 0}
+      <effects>k__BackingField:
+      - type: 1
+        duration: 5
+        withVFX: 0
+        vfx: {fileID: 0}
+  unlocks: 0
+--- !u!114 &-1786004686848723425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 204ceea48abd04460aedb8d78a115ea2, type: 3}
+  m_Name: Talent G
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -136, y: -728}
+  ports:
+    keys:
+    - prerequisite
+    - unlocks
+    values:
+    - _fieldName: prerequisite
+      _node: {fileID: -1786004686848723425}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: unlocks
+        node: {fileID: -4817681781464455475}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: unlocks
+      _node: {fileID: -1786004686848723425}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: prerequisite
+        node: {fileID: -1514400610160353914}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  prerequisite: 0
+  talents:
+  - modification: {fileID: 11400000, guid: 89c23ca47ad3f49d1a2a7a5998939757, type: 2}
+    targetSkillPopup: Ice Freeze
+    targetSkill:
+      <skillName>k__BackingField: Ice Freeze
+      <icon>k__BackingField: {fileID: 21300000, guid: 342f7a502b9e347c2ae5637001a83b8c, type: 3}
+      <skillDescription>k__BackingField: Slow Enemy
+      <damage>k__BackingField: 3
+      <manaCost>k__BackingField: 70
+      <cooldown>k__BackingField: 7
+      <skillVFX>k__BackingField: {fileID: 0}
+      <effects>k__BackingField:
+      - type: 1
+        duration: 5
+        withVFX: 0
+        vfx: {fileID: 0}
+  unlocks: 0
+--- !u!114 &-1514400610160353914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 204ceea48abd04460aedb8d78a115ea2, type: 3}
+  m_Name: Talent I
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 312, y: -808}
+  ports:
+    keys:
+    - prerequisite
+    - unlocks
+    values:
+    - _fieldName: prerequisite
+      _node: {fileID: -1514400610160353914}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: unlocks
+        node: {fileID: -1786004686848723425}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: unlocks
+      _node: {fileID: -1514400610160353914}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: prerequisite
+        node: {fileID: -849929830885612274}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  prerequisite: 0
+  talents:
+  - modification: {fileID: 11400000, guid: 89c23ca47ad3f49d1a2a7a5998939757, type: 2}
+    targetSkillPopup: Lightning Strike
+    targetSkill:
+      <skillName>k__BackingField: Lightning Strike
+      <icon>k__BackingField: {fileID: 21300000, guid: 29f689e80953c47e2a6fce19843bf74e, type: 3}
+      <skillDescription>k__BackingField: Lightning from the sky
+      <damage>k__BackingField: 5
+      <manaCost>k__BackingField: 90
+      <cooldown>k__BackingField: 15
+      <skillVFX>k__BackingField: {fileID: 0}
+      <effects>k__BackingField:
+      - type: 0
+        duration: 3
+        withVFX: 0
+        vfx: {fileID: 0}
+  unlocks: 0
+--- !u!114 &-849929830885612274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 204ceea48abd04460aedb8d78a115ea2, type: 3}
+  m_Name: Talent L
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 856, y: -264}
+  ports:
+    keys:
+    - prerequisite
+    - unlocks
+    values:
+    - _fieldName: prerequisite
+      _node: {fileID: -849929830885612274}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: unlocks
+        node: {fileID: -1514400610160353914}
+        reroutePoints: []
+      - fieldName: unlocks
+        node: {fileID: -2483280083663466008}
+        reroutePoints: []
+      - fieldName: unlocks
+        node: {fileID: -1883741142808425759}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: unlocks
+      _node: {fileID: -849929830885612274}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  prerequisite: 0
+  talents:
+  - modification: {fileID: 11400000, guid: 89c23ca47ad3f49d1a2a7a5998939757, type: 2}
+    targetSkillPopup: Lightning Strike
+    targetSkill:
+      <skillName>k__BackingField: Lightning Strike
+      <icon>k__BackingField: {fileID: 21300000, guid: 29f689e80953c47e2a6fce19843bf74e, type: 3}
+      <skillDescription>k__BackingField: Stun Enemy and Damage
+      <damage>k__BackingField: 5
+      <manaCost>k__BackingField: 90
+      <cooldown>k__BackingField: 15
+      <skillVFX>k__BackingField: {fileID: 0}
+      <effects>k__BackingField:
+      - type: 0
+        duration: 3
+        withVFX: 0
+        vfx: {fileID: 0}
+  unlocks: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1681fdb2395a24fe1be2d04202bfa0f6, type: 3}
+  m_Name: Classic Talent Graph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 1227705116548225553}
+  - {fileID: 2193410212183635477}
+  - {fileID: 6474091860139987108}
+  - {fileID: -4817681781464455475}
+  - {fileID: 6686096950405322205}
+  - {fileID: 2229380732637853651}
+  - {fileID: -1786004686848723425}
+  - {fileID: 5299359979236965320}
+  - {fileID: -2483280083663466008}
+  - {fileID: -1883741142808425759}
+  - {fileID: -1514400610160353914}
+  - {fileID: -849929830885612274}
+  character: {fileID: 11400000, guid: bbfeb244eb49c46fb8f1f439c10161a1, type: 2}
+--- !u!114 &1227705116548225553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 204ceea48abd04460aedb8d78a115ea2, type: 3}
+  m_Name: Talent A
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1496, y: -520}
+  ports:
+    keys:
+    - prerequisite
+    - unlocks
+    values:
+    - _fieldName: prerequisite
+      _node: {fileID: 1227705116548225553}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: unlocks
+      _node: {fileID: 1227705116548225553}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: prerequisite
+        node: {fileID: 2193410212183635477}
+        reroutePoints: []
+      - fieldName: prerequisite
+        node: {fileID: 6474091860139987108}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  prerequisite: 0
+  talents:
+  - modification: {fileID: 11400000, guid: fe8190cf30288473284d599829caec3f, type: 2}
+    targetSkillPopup: Fire Ball
+    targetSkill:
+      <skillName>k__BackingField: Fire Ball
+      <icon>k__BackingField: {fileID: 21300000, guid: e2838793b76fb44b68d2c54b0cc7fa8e, type: 3}
+      <skillDescription>k__BackingField: Damage to enemy
+      <damage>k__BackingField: 50
+      <manaCost>k__BackingField: 60
+      <cooldown>k__BackingField: 10
+      <skillVFX>k__BackingField: {fileID: 0}
+      <effects>k__BackingField: []
+  unlocks: 0
+--- !u!114 &2193410212183635477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 204ceea48abd04460aedb8d78a115ea2, type: 3}
+  m_Name: Talent B
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1048, y: -808}
+  ports:
+    keys:
+    - prerequisite
+    - unlocks
+    values:
+    - _fieldName: prerequisite
+      _node: {fileID: 2193410212183635477}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: unlocks
+        node: {fileID: 1227705116548225553}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: unlocks
+      _node: {fileID: 2193410212183635477}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: prerequisite
+        node: {fileID: -4817681781464455475}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  prerequisite: 0
+  talents:
+  - modification: {fileID: 11400000, guid: 89c23ca47ad3f49d1a2a7a5998939757, type: 2}
+    targetSkillPopup: Fire Ball
+    targetSkill:
+      <skillName>k__BackingField: Fire Ball
+      <icon>k__BackingField: {fileID: 21300000, guid: e2838793b76fb44b68d2c54b0cc7fa8e, type: 3}
+      <skillDescription>k__BackingField: Damage to enemy
+      <damage>k__BackingField: 50
+      <manaCost>k__BackingField: 60
+      <cooldown>k__BackingField: 10
+      <skillVFX>k__BackingField: {fileID: 0}
+      <effects>k__BackingField: []
+  unlocks: 0
+--- !u!114 &2229380732637853651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 204ceea48abd04460aedb8d78a115ea2, type: 3}
+  m_Name: Talent F
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -600, y: 8}
+  ports:
+    keys:
+    - prerequisite
+    - unlocks
+    values:
+    - _fieldName: prerequisite
+      _node: {fileID: 2229380732637853651}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: unlocks
+        node: {fileID: 6474091860139987108}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: unlocks
+      _node: {fileID: 2229380732637853651}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: prerequisite
+        node: {fileID: 5299359979236965320}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  prerequisite: 0
+  talents:
+  - modification: {fileID: 11400000, guid: 89c23ca47ad3f49d1a2a7a5998939757, type: 2}
+    targetSkillPopup: Fire Ball
+    targetSkill:
+      <skillName>k__BackingField: Fire Ball
+      <icon>k__BackingField: {fileID: 21300000, guid: e2838793b76fb44b68d2c54b0cc7fa8e, type: 3}
+      <skillDescription>k__BackingField: Damage to enemy
+      <damage>k__BackingField: 50
+      <manaCost>k__BackingField: 60
+      <cooldown>k__BackingField: 10
+      <skillVFX>k__BackingField: {fileID: 0}
+      <effects>k__BackingField: []
+  unlocks: 0
+--- !u!114 &5299359979236965320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 204ceea48abd04460aedb8d78a115ea2, type: 3}
+  m_Name: Talent H
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -136, y: -216}
+  ports:
+    keys:
+    - prerequisite
+    - unlocks
+    values:
+    - _fieldName: prerequisite
+      _node: {fileID: 5299359979236965320}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: unlocks
+        node: {fileID: 6686096950405322205}
+        reroutePoints: []
+      - fieldName: unlocks
+        node: {fileID: 2229380732637853651}
+        reroutePoints: []
+      - fieldName: unlocks
+        node: {fileID: -4817681781464455475}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: unlocks
+      _node: {fileID: 5299359979236965320}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: prerequisite
+        node: {fileID: -2483280083663466008}
+        reroutePoints: []
+      - fieldName: prerequisite
+        node: {fileID: -1883741142808425759}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  prerequisite: 0
+  talents:
+  - modification: {fileID: 11400000, guid: 89c23ca47ad3f49d1a2a7a5998939757, type: 2}
+    targetSkillPopup: Lightning Strike
+    targetSkill:
+      <skillName>k__BackingField: Lightning Strike
+      <icon>k__BackingField: {fileID: 21300000, guid: 29f689e80953c47e2a6fce19843bf74e, type: 3}
+      <skillDescription>k__BackingField: Stun Enemy and Damage
+      <damage>k__BackingField: 5
+      <manaCost>k__BackingField: 90
+      <cooldown>k__BackingField: 15
+      <skillVFX>k__BackingField: {fileID: 0}
+      <effects>k__BackingField:
+      - type: 0
+        duration: 3
+        withVFX: 0
+        vfx: {fileID: 0}
+  unlocks: 0
+--- !u!114 &6474091860139987108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 204ceea48abd04460aedb8d78a115ea2, type: 3}
+  m_Name: Talent C
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1048, y: -216}
+  ports:
+    keys:
+    - prerequisite
+    - unlocks
+    values:
+    - _fieldName: prerequisite
+      _node: {fileID: 6474091860139987108}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: unlocks
+        node: {fileID: 1227705116548225553}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: unlocks
+      _node: {fileID: 6474091860139987108}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: prerequisite
+        node: {fileID: 6686096950405322205}
+        reroutePoints: []
+      - fieldName: prerequisite
+        node: {fileID: 2229380732637853651}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  prerequisite: 0
+  talents:
+  - modification: {fileID: 11400000, guid: 2f976b0ad07434bb88a1c17ce3ff999a, type: 2}
+    targetSkillPopup: Lightning Strike
+    targetSkill:
+      <skillName>k__BackingField: Lightning Strike
+      <icon>k__BackingField: {fileID: 21300000, guid: 29f689e80953c47e2a6fce19843bf74e, type: 3}
+      <skillDescription>k__BackingField: Stun Enemy and Damage
+      <damage>k__BackingField: 5
+      <manaCost>k__BackingField: 90
+      <cooldown>k__BackingField: 15
+      <skillVFX>k__BackingField: {fileID: 0}
+      <effects>k__BackingField:
+      - type: 0
+        duration: 3
+        withVFX: 0
+        vfx: {fileID: 0}
+  unlocks: 0
+--- !u!114 &6686096950405322205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 204ceea48abd04460aedb8d78a115ea2, type: 3}
+  m_Name: Talent E
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -600, y: -424}
+  ports:
+    keys:
+    - prerequisite
+    - unlocks
+    values:
+    - _fieldName: prerequisite
+      _node: {fileID: 6686096950405322205}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: unlocks
+        node: {fileID: 6474091860139987108}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: unlocks
+      _node: {fileID: 6686096950405322205}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: prerequisite
+        node: {fileID: 5299359979236965320}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  prerequisite: 0
+  talents:
+  - modification: {fileID: 11400000, guid: 89c23ca47ad3f49d1a2a7a5998939757, type: 2}
+    targetSkillPopup: Lightning Strike
+    targetSkill:
+      <skillName>k__BackingField: Lightning Strike
+      <icon>k__BackingField: {fileID: 21300000, guid: 29f689e80953c47e2a6fce19843bf74e, type: 3}
+      <skillDescription>k__BackingField: Stun Enemy and Damage
+      <damage>k__BackingField: 5
+      <manaCost>k__BackingField: 90
+      <cooldown>k__BackingField: 15
+      <skillVFX>k__BackingField: {fileID: 0}
+      <effects>k__BackingField:
+      - type: 0
+        duration: 3
+        withVFX: 0
+        vfx: {fileID: 0}
+  unlocks: 0
